@@ -4,5 +4,5 @@ module.exports = {
     description:
       'Blog concentrating on computer science fundamentals and other subjects I learn',
   },
-  plugins: ['gatsby-plugin-emotion'],
+  plugins: ['gatsby-plugin-emotion', 'gatsby-plugin-react-helmet'],
 };
