@@ -39,5 +39,14 @@ module.exports = {
         username: 'balding.coder',
       },
     },
+    {
+      resolve: 'gatsby-plugin-webpack-bundle-analyzer',
+      options: {
+        production: true,
+        disable: !process.env.ANALYZE_BUDNLE_SIZE,
+        generateStatsFile: true,
+        analyzerMode: 'static',
+      },
+    },
   ],
 };
